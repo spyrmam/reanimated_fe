@@ -94,7 +94,6 @@ Character.Archivable=true
 local FCharacter = Character:Clone()
 Character.Archivable=false
 local Humanoid = Character.Humanoid
-local Mouse = Player:GetMouse()
 local LeftArm = Character["Left Arm"]
 local RightArm = Character["Right Arm"]
 local LeftLeg = Character["Left Leg"]
