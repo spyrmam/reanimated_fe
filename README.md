@@ -52,7 +52,7 @@ Event.OnServerEvent:Connect(function(plr,io)
     end
 end)
 Event.Parent = NLS([==[
-local Player = game:GetService("Players").LocalPlayer
+local Player = owner
 local Event = script:WaitForChild("UserInput_Event")
 
 local UIS = game:GetService("UserInputService")
@@ -63,8 +63,6 @@ local input = function(io,a)
 end
 UIS.InputBegan:Connect(input)
 UIS.InputEnded:Connect(input)
-
-local Mouse = Player:GetMouse()
 local h,t
 --Give the server mouse data 30 times every second, but only if the values changed
 --If player is not moving their mouse, client won't fire events
@@ -76,6 +74,7 @@ while wait(1/30) do
 end]==],Player.Character)
 Mouse,mouse,UserInputService,ContextActionService = m,m,UIS,CAS
 end
+
 --[[
     REANIMATED
         { Never.. Give.. Up.. }
