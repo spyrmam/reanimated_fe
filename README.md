@@ -1567,10 +1567,10 @@ if FCharacter then
 end
 local s = Instance.new("Sound",Character)
 s.Name = "Reanimate"
-s.Volume = 5
+s.Volume = 2
 s.Pitch = 0.66
 s.Looped = true
-s.SoundId = "rbxassetid://https://audio.jukehost.co.uk/asYIORjaoLzUMyPJS4oijjuq3bsycHqP"
+s.SoundId = "rbxassetid://156215"
 s:Play()
 
 
