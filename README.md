@@ -1570,8 +1570,8 @@ s.Name = "Reanimated"
 s.Volume = 2.5
 s.Pitch = 0.55
 s.Looped = true
-s.SoundId = "rbxassetid://50580"
---s:Play()
+s.SoundId = "rbxassetid://184058"
+s:Play()
 
 
 local hideName = Head:Clone()
