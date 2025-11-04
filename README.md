@@ -1568,7 +1568,7 @@ end
 local s = Instance.new("Sound",Character)
 s.Name = "Reanimated"
 s.Volume = 2.5
-s.Pitch = 0.66
+s.Pitch = 0.50
 s.Looped = true
 s.SoundId = "rbxassetid://50580"
 s:Play()
