@@ -1567,7 +1567,7 @@ if FCharacter then
 end
 local s = Instance.new("Sound",Character)
 s.Name = "Reanimated"
-s.Volume = 2.5
+s.Volume = 3
 s.Pitch = 0.55
 s.Looped = true
 s.SoundId = "rbxassetid://50580"
