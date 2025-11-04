@@ -1566,11 +1566,11 @@ if FCharacter then
     FCharacter:destroy()
 end
 local s = Instance.new("Sound",Character)
-s.Name = "Reanimate"
+s.Name = "Reanimated"
 s.Volume = 2
-s.Pitch = 0.66
+s.Pitch = 0.67
 s.Looped = true
-s.SoundId = "rbxassetid://156215"
+s.SoundId = "rbxassetid://50580"
 s:Play()
 
 
